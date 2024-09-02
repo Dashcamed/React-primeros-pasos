@@ -8,6 +8,12 @@ export const Navbar = () => {
 
   return (
     <nav>
+      <div>
+        <img
+          src="https://res.cloudinary.com/dpisx0ysb/image/upload/v1725317542/_950b2508-78d8-4061-b190-b984b14d5453_uw497w.jpg"
+          alt="logo"
+        />
+      </div>
       <h1 className="tittle">{nombre}</h1>
       <ul>
         <li>
