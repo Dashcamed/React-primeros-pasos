@@ -1,3 +1,4 @@
+import Counter from "./components/common/counter/Counter";
 import Navbar from "./components/layouts/navbar/Navbar";
 import ItemListContainer from "./components/pages/itemListComponents/ItemListContainer";
 
@@ -7,7 +8,8 @@ function App() {
     <div>
       <Navbar />
       <ItemListContainer greetings={saludo} />
-      {/* greetings=:{saludo} siempre un componente manda un objeto */}
+      greetings=:{saludo} siempre un componente manda un objeto
+      <Counter />
     </div>
   );
 }
