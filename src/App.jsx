@@ -1,15 +1,13 @@
-import { Footer } from "./components/footer/Footer";
-import { Main } from "./components/main/Main";
-import { Home } from "./components/home/Home";
-import { Navbar } from "./components/navbar/Navbar";
+import Navbar from "./components/layouts/navbar/Navbar";
+import ItemListContainer from "./components/pages/itemListComponents/ItemListContainer";
 
 function App() {
+  let saludo = "Hola mundo";
   return (
     <div>
       <Navbar />
-      <Home />
-      <Main />
-      <Footer />
+      <ItemListContainer greetings={saludo} />
+      {/* greetings=:{saludo} siempre un componente manda un objeto */}
     </div>
   );
 }
