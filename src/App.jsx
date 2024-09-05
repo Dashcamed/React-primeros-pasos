@@ -8,7 +8,6 @@ function App() {
     <div>
       <Navbar />
       <ItemListContainer greetings={saludo} />
-      greetings=:{saludo} siempre un componente manda un objeto
       <Counter />
     </div>
   );
