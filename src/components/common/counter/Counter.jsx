@@ -1,15 +1,4 @@
-import { useState } from "react";
-
-const Counter = () => {
-  const [contador, setContador] = useState(10);
-
-  const sumar = () => {
-    setContador(contador + 1);
-  };
-  const restar = () => {
-    setContador(contador - 1);
-  };
-
+const Counter = ({ contador, sumar, restar }) => {
   return (
     <div>
       <h1>Contador: {contador} </h1>
